@@ -1,9 +1,9 @@
 # httpinspector
-A simple node js server printing out details about http requests and responding with a standard response.
+_A simple node js server printing out details about http requests and responding with a standard response._
 
-This can be helpful if you want to inspect http requests that your app make, but you lack access to the server logs and detailed logging at the client side. Under these circumstances it can sometimes be difficult to troubleshoot failing requests. This simple tool aims to provide a complete log of your http request without having to install/configure a proxy or similar.
+This can be helpful if you want to inspect http requests that your app makes, but you don't have access to the server logs or detailed logging at the client side. Under these circumstances it can sometimes be difficult to troubleshoot failing requests. This simple tool aims to provide a complete log of your http request without having to install/configure a proxy or similar.
 
-## How to use
+## Usage
 To start the server simply server.js with node. You can optionally provide the port the server should listen to via a command line argument. The default port is 5000.
 
 <pre><code>node server.js 5000</code></pre>
