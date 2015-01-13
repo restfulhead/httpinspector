@@ -4,7 +4,7 @@ _A simple node js server printing out details about http requests and responding
 This can be helpful if you want to inspect http requests that your app makes, but you don't have access to the server logs or detailed logging at the client side. Under these circumstances it can sometimes be difficult to troubleshoot failing requests. This simple tool aims to provide a complete log of your http request without having to install/configure a proxy or similar.
 
 ## Usage
-To start the server simply server.js with node. You can optionally provide the port the server should listen to via a command line argument. The default port is 5000.
+To start the server simply start server.js with node. You can optionally provide the port the server should listen to via a command line argument. The default port is 5000.
 
 <pre><code>node server.js 5000</code></pre>
 
